@@ -1,19 +1,34 @@
-GutenDex Books Explorer
+# GutenDex Books Explorer
 
-A full-stack application built using Laravel (API backend) and Vue 3 (frontend) to browse, search, filter, sort, and explore books from the Project Gutenberg open dataset.
+A full-stack application built using **Laravel 11 (API backend)** and **Vue 3 (Composition API)** to browse, search, filter, sort, and explore books from the **Project Gutenberg open dataset**.
 
-Tech Stack
+---
 
-Backend: Laravel 11, PHP 8+, MySQL
-Frontend: Vue 3 (Composition API), Axios, Bootstrap 5, Vite
-Documentation: Swagger / OpenAPI 3.0.3
+## 🚀 Tech Stack
 
-Backend (Laravel API) Installation:
+### **Backend**
+- Laravel 11  
+- PHP 8+  
+- Postgresql  
+- Swagger / OpenAPI 3.0.3 Documentation  
 
+### **Frontend**
+- Vue 3 (Composition API)  
+- Axios  
+- Bootstrap 5  
+- Vite  
+
+---
+
+## 📦 Backend (Laravel API) Installation
+
+```bash
 git clone https://github.com/yourname/gutendex-backend.git
 cd gutendex-backend
+
 composer install
 cp .env.example .env
+
 php artisan key:generate
 
 APP_URL=http://127.0.0.1:8000
@@ -27,6 +42,8 @@ Frontend (Vue 3) Installation:
 
 git clone https://github.com/yourname/gutendex-frontend.git
 cd gutendex-frontend
+
 npm install
 npm run dev
+
 
