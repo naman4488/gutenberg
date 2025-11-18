@@ -46,4 +46,8 @@ cd gutendex-frontend
 npm install
 npm run dev
 
+Vite automatically runs the frontend on:
+
+http://localhost:5173
+
 
